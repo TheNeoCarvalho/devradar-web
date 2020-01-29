@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DevRadar 🚀
 
-## Available Scripts
+Projeto desenvolvido durante a semana OmniStack 10 🚀, que é oferecida pela [Rocketseat](https://github.com/Rocketseat). O projeto envolve o desenvolvimento de uma aplicação do zero, trabalhado seu back-end, front-end e Mobile.
 
-In the project directory, you can run:
+DevRadar, uma aplicação que permite cadastrar Dev's apartir da API do github para encontrar os dados do dev e salvar em um banco da aplicação. Partindo disso a aplicação visa conectar dev's próximos a você que trabalham com as mesmas tecnologias.
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Funcionamento da API do github
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+A funcionalidade é bem simples basta solicitar na url abaixo no local do username o seu username que como resultado terar um JSON com os dados como podemos ver no no exemplo do [link](https://api.github.com/users/TheNeoCarvalho).
 
-### `yarn test`
+```
+  https://api.github.com/users/username
+ ```
+ 
+ ## 👨🏼‍💻 Desenvolvedor 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Manoel Carvalho](https://www.linkedin.com/in/francisco-manoel-carvalho/)
 
-### `yarn build`
+## ✋🏻 Pré-requisitos
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Passos para utilizar 
+1. Faça um clone desse repositório;
+2. Entre na pasta `cd devradar-backebd`;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Frontend 
+1. Entre na pasta frontend
+2. Rode `yarn` para instalar as dependências;
+3. Rode `yarn start` para iniciar a aplicação;
 
-### `yarn eject`
+## ⚡️ Como contribuir
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📝 Licença
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.

@@ -65,7 +65,7 @@ function App() {
       setGithubUsername('')
       setTags([])
 
-      setDevs([...devs, response.data.devs])
+      setDevs([...devs, response.data])
   }
 
   function handleAddTags(tags) {
@@ -111,7 +111,7 @@ function App() {
 
             <li className="dev-item">
               <header>
-                <img src={dev.avatar_url}alt={dev.name}/>
+                <img src={dev.avatar_url} alt={dev.name}/>
                 <div className="user-info">
                   <strong>{dev.name}</strong>
                   <span>{dev.techs.join(', ')}</span>
@@ -120,7 +120,7 @@ function App() {
               <p>
               {dev.bio}
               </p>
-            <a href={`https://github.com/${dev.github_username}`}>View on Github</a> <a href="#">remove</a>
+            <a href={`https://github.com/${dev.github_username}`} target="_blank">View on Github</a>
             </li>
       
           ))}
